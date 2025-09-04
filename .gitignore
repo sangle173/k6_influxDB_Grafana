@@ -1,0 +1,32 @@
+# k6 binary files
+k6-bin/
+k6-v0.45.0-windows-amd64/
+*.exe
+
+# Laravel environment files
+/backend-laravel/.env
+/backend-laravel/vendor/
+/backend-laravel/node_modules/
+/backend-laravel/public/hot
+/backend-laravel/public/storage
+/backend-laravel/storage/*.key
+
+# InfluxDB and Grafana data
+/influxdb-data/
+/grafana-data/
+
+# Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
